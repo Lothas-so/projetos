@@ -2,13 +2,13 @@
 
 @font-face{
     font-family: 'bold';
-    src: url('fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+    src: url('../fonts/static/Figtree-ExtraBold.ttf') format('truetype');
     
 }
 
 @font-face {
    font-family: 'mediun';
-    src: url('fonts/static/Figtree-Medium.ttf') format('truetype');
+    src: url('../fonts/static/Figtree-Medium.ttf') format('truetype');
 
 }
 
