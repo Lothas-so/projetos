@@ -29,6 +29,7 @@ body{
     padding-top: 20vh ;
     font-family: var(--font3);
     min-height: 300px;
+    background-attachment: fixed;
 
 }
 
@@ -108,7 +109,7 @@ a.yellow:hover{
 footer{
     background-color: white;
     margin-top: 200px;
-    height: 80px;
+    height: 8.4vh;
 
 }
 
