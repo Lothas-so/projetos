@@ -49,7 +49,7 @@ p#font{
     background-color: #F3D14D;
     width: 80px;
     margin-left: 25px;
-    padding: 5px 15px 5px 13px;
+    padding: 5px 20px 5px 15px;
     border-radius: 5px;
     
 }
@@ -85,4 +85,13 @@ p#font5{
     margin-top: -30px;
     font-size: 0.8em;
 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: blue;
 }
