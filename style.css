@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'bold';
+    src: url('fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+    
+}
+
+@font-face {
+   font-family: 'mediun';
+    src: url('fonts/static/Figtree-Medium.ttf') format('truetype');
+
+}
+
+:root{
+    --font1: 'bold';
+    --font2: 'mediun';
+    --font3:Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background-color: #F4D14E;
+    padding-top: 20vh ;
+    font-family: var(--font3);
+
+}
+
+main{
+    margin: auto;
+    background-color: white; 
+    width: 350px;
+    height: 480px;
+    border-radius: 25px;
+    box-shadow: 11px 12px 1px 0px #000000c9;
+
+    
+}
+
+img#img1{
+    width: 300px;
+    border-radius: 50px 40px 20px 45px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+p#font{
+    font-family: 'bold';
+    background-color: #F3D14D;
+    width: 80px;
+    margin-left: 25px;
+    padding: 5px 15px 5px 13px;
+    border-radius: 5px;
+    
+}
+
+p#font2{
+    font-family: var(--font2);
+    margin-left: 25px;
+    font-size: 0.9em;
+}
+
+p#font3{
+    font-family: var(--font1);
+    margin-left: 25px;
+    font-size: 1.2em;
+}
+
+p#font4{
+    font-family: var(--font2);
+    margin-left: 25px;
+    color: darkgray;
+    font-size: 0.9em;
+}
+
+img#img2{
+    width: 40px;
+    margin-left: 15px;
+    
+}
+
+p#font5{
+    padding-left: 65px;
+    font-family: var(--font1);
+    margin-top: -30px;
+    font-size: 0.8em;
+
+}
