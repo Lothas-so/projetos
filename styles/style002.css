@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
 @font-face{
     font-family: 'bold';
     src: url('../fonts/static/Figtree-ExtraBold.ttf') format('truetype');
@@ -23,6 +28,7 @@ body{
     background-color: #F4D14E;
     padding-top: 20vh ;
     font-family: var(--font3);
+    min-height: 300px;
 
 }
 
@@ -31,6 +37,7 @@ main{
     background-color: white; 
     width: 350px;
     height: 480px;
+    border: 1px solid black;
     border-radius: 25px;
     box-shadow: 11px 12px 1px 0px #000000c9;
 
@@ -42,9 +49,11 @@ img#img1{
     border-radius: 50px 40px 20px 45px;
     padding-left: 25px;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 p#font{
+
     font-family: 'bold';
     background-color: #F3D14D;
     width: 80px;
@@ -87,11 +96,24 @@ p#font5{
 
 }
 
-a{
+a.yellow{
     text-decoration: none;
     color: black;
 }
 
-a:hover{
-    color: blue;
+a.yellow:hover{
+    color: #EED342;
+}
+
+footer{
+    background-color: white;
+    margin-top: 200px;
+    height: 80px;
+
+}
+
+footer > p{
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 30px;
 }
