@@ -6,10 +6,14 @@
 
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kedebideri:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+
 body{
     background-color: #F3E5D8;
     height: 100vh;
-    margin-top: 50px;
+    margin-top: 15vh;
 }
 
 main{
@@ -18,6 +22,9 @@ main{
     max-width: 800px;
     margin: auto;
     line-height: 2em;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 20px;
 }
 
 main div > img{
@@ -25,24 +32,6 @@ main div > img{
     border-radius: 20px;
     margin-left: 35px;
     margin-top: 35px;
-}
-
-main h1{
-    padding-left: 30px;
-    line-height: 2em;
-}
-
-main h2{
-    padding-left: 30px;
-}
-
-main p{
-    padding-left: 30px;
-}
-
-main div > ul,ol{
-    list-style-position: inside;
-    padding-left: 30px;
 }
 
 main div#shandow{
@@ -54,4 +43,100 @@ main div#shandow{
 
 main div#shandow > h2{
     padding-left: 15px;
+    color: #651737;
+}
+
+main div#box li{
+    color: #5D5D59;
+    font-weight: 600;
+}
+
+main div#box p {
+    display: inline;
+    padding-left: 0px;
+    color:#989993 ;
+    font-weight: 400;
+}
+
+div.borda {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.288);
+}
+
+div.borda > ol, ul{
+    padding-bottom: 1.5em;
+    padding-top: 20px;
+}
+
+main h1{
+    padding-left: 30px;
+    line-height: 2em;
+    font-size: 2.5em;
+    font-family: "Roboto", sans-serif;
+
+}
+
+main h2{
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 2em;
+    color: #7B584C;
+    font-family: "Kedebideri", sans-serif;
+}
+
+main p{
+    padding-left: 30px;
+    font-size: 1.1em;
+    font-family: "Smooch Sans", sans-serif;
+    text-align: justify;
+    color: #ACA9A7;
+}
+
+main div > ul,ol{
+    list-style-position: inside;
+    padding-left: 30px;
+}
+
+main li {
+    font-size: 1.1em;
+    font-family: "Smooch Sans", sans-serif;
+    text-align: justify;
+}
+
+aside{
+     padding-bottom: 50px;
+}
+
+aside#tabela > p{
+    padding-bottom: 10px;
+    padding-top: 20px;
+    color: #827E7C;
+    font-weight: 500;
+    display: flex;
+
+}
+
+
+aside#tabela > p.bord{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.726);
+}
+
+strong{
+    color: #735D57;
+}
+
+strong#cal{
+    padding-left: 17em;
+}
+strong#car{
+    padding-left: 18em;
+}
+strong#pro{
+    padding-left: 17.5em;
+}
+strong#fat{
+    padding-left: 19.2em;
+}
+
+footer{
+    padding-top: 15vh;
 }
