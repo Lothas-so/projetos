@@ -8,21 +8,24 @@
 
 body{
     background-color: #F3E5D8;
-    padding-top: 10vh;
     height: 100vh;
+    margin-top: 50px;
 }
 
 main{
     background-color: white;
     min-width: 300px;
-    max-width: 700px;
+    max-width: 800px;
+    height: 1370px;
     margin: auto;
     line-height: 2em;
 }
 
 main div > img{
-    width: 100%;
-    
+    width: 90%;
+    border-radius: 20px;
+    margin-left: 35px;
+    margin-top: 35px;
 }
 
 main h1{
