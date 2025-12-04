@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@media screen and (min-width:667px){
+    body{
+        background-image: url(../../images/img05/pattern-background-desktop.svg);
+        background-size: 100% 50%;
+    }
+    
+    aside#preco{
+        display: flex;
+    }
+
+    aside#preco > ul > li{
+        width: 90px;
+        line-height: 1.8em;
+    }
+
+    ul >  li#plan{
+        padding-top: 2px;
+    }
+
+    aside#preco > a{
+        padding-left: 62px;
+    }
+
+}
