@@ -86,6 +86,10 @@ aside > a{
     padding-left: 70px;
 }
 
+aside > a:hover{
+    color: #7b7b86;
+}
+
 
 a#pag{
     background-color: blue;
