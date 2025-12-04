@@ -6,11 +6,11 @@
         background-size: 100% 50%;
     }
     
-    aside#preco{
+    aside{
         display: flex;
     }
 
-    aside#preco > ul > li{
+    aside > ul > li{
         width: 90px;
         line-height: 1.8em;
     }
@@ -19,7 +19,7 @@
         padding-top: 2px;
     }
 
-    aside#preco > a{
+    aside > a{
         padding-left: 62px;
     }
 
