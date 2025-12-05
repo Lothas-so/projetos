@@ -2,18 +2,18 @@
 
 @media screen and (min-width:778px){
     section{
-        width: 600px;
+        width: 770px;
         height: 500px;
     }
 
     section > div#imagem{
-        background-image: url(../../images/img06/image-product-mobile.jpg);
-        background-position: center center;
+        background-image: url(../../images/img06/image-product-desktop.jpg);
+        background-position: center top;
         background-size: cover;
         height: 500px;
         background-repeat: no-repeat;
         float: left;
-        width: 40%;
+        width: 50%;
         border-radius: 10px 0px 0px 0px;
     }
 
@@ -23,12 +23,27 @@
 
     section > div#principal{
         float: right;
-        width: 60%;
+        width: 50%;
+        height: 100%;
     }
 
     div#principal > h3{
-        margin-top: 50px;
+        padding-top: 20px;
+    }
+
+    section > div#principal > h1 > br.quebra{
+        display: block;
+    }
+
+    section > div#principal > h1 > br.mob{
+        display: none;
+    }
+
+    div#preco{
+        margin-top: 20px;
     }
     
- 
+    a{
+        margin-top: 40px;
+    }
 }
