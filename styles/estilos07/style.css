@@ -25,6 +25,7 @@ div#container{
     background-color:#15273F;
     height: 600px;
     width: 400px;
+    border-radius: 15px;
 
     transform: translate(-50%,-50%);
 }
@@ -36,7 +37,7 @@ div#imagem{
     width: 85%;
     margin: auto;
     margin-top: 25px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 div.titulo{
@@ -50,4 +51,33 @@ div.paragrafo{
     margin-left: 30px;
     color: #96ADCD;
     margin-top: 20px;
+}
+
+div.preco{
+    margin-left: 30px;
+    margin-top: 10px;
+    color: #05F2DB;
+    display: flex;
+    border-bottom: 1px solid #2D3E56;
+    padding-bottom: 20px;
+    width: 350px;
+
+}
+
+div.preco > img{
+    margin-right: 5px;
+    display: inline-block;
+}
+
+div.preco > p{
+    margin-left: 40%;
+}
+
+div.preco > p > img{
+    margin-right: 5px;
+
+}
+
+div.avatar{
+
 }
